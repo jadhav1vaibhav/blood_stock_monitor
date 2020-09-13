@@ -1,0 +1,13 @@
+<%@ page import="java.util.*" %>
+
+<html>
+<body>
+
+<%
+String a = request.getParameter("bg");
+out.print(a);
+%>
+
+</body>
+</html>
+
